@@ -3,7 +3,7 @@ Feature: Criar usuário
   Background:
     * url baseUrl
 
-  @done
+  @done @massa
   Scenario: Criar usuário com sucesso
 
     Given path 'usuarios'
@@ -24,6 +24,8 @@ Feature: Criar usuário
     And request payload
     When method POST
     Then status 201
+
+    * def userId = response._id
 
   @done
   Scenario: Criar usuário com sucesso validar response

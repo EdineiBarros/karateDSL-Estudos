@@ -6,8 +6,7 @@ class Runner {
 
     @Karate.Test
     Karate runAll() {
-        return Karate.run("classpath:features")
-                .tags("@rodar");
+        return Karate.run("classpath:features");
     }
 }
 /*Rodar por tag*/

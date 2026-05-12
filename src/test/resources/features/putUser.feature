@@ -3,7 +3,7 @@ Feature: PUT
    Background:
        * url baseUrl
 
-@rodar
+@done
 Scenario: Editar usuário com sucesso validar response
 
 Given path 'usuarios', '0uxuPY0cbmQhpEz1'
