@@ -3,7 +3,7 @@ Feature: GET
   Background:
     * url baseUrl
 
-  @rodar
+  @done
   Scenario: Validar dados response
 
     Given path 'usuarios', '0uxuPY0cbmQhpEz1'

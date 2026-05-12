@@ -28,7 +28,7 @@ Feature: Criar usuário
   @done
   Scenario: Criar usuário com sucesso validar response
 
-    Given url 'https://serverest.dev/usuarios'
+    Given path 'usuarios', '0uxuPY0cbmQhpEz1'
     And header accept = 'application/json'
     And header Content-Type = 'application/json'
 
