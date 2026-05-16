@@ -5,7 +5,7 @@ Feature: DELETE
     * def user = call read('classpath:features/postCreateUser.feature@massa')
     * def userId = user.userId
 
-  @rodar
+  @done
   Scenario: Deletar usuário com sucesso
 
     Given path 'usuarios', userId
