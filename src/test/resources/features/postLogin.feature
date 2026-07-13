@@ -18,7 +18,7 @@ Feature: Login com dados no gherkin
 
     Examples:
       | email                 | senha  | status |
-      | user_321051@qa.com.br | teste  | 200    |
+      | fulano@qa.com         | teste  | 200    |
       |                       | teste  | 400    |
       | user_321051@qa.com.br |        | 400    |
       |                       |        | 400    |
